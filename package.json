@@ -13,6 +13,7 @@
     "prettier:fix": "prettier --write ."
   },
   "dependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.10.2",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",

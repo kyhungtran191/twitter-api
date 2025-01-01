@@ -1,2 +1,6 @@
-const name: string = 'Dư Thanh Được'
-console.log(name)
+import express from 'express'
+const app = express()
+const port = 3000
+app.get('/', (req, res) => {
+  res.send('Hello world!')
+})
