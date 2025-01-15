@@ -1,7 +1,7 @@
 import { Router, Request, Response, NextFunction } from 'express'
 import { loginValidation, registerValidator } from '~/middlewares/users.middlewares'
 import { registerController } from '~/controllers/users.controllers'
-import { validate } from '~/utils/validation'
+
 const usersRouter = Router()
 
 usersRouter.post('/login', loginValidation, (req: Request, res: Response, next: NextFunction) => {

@@ -1,9 +1,8 @@
 import { Collection, Db, MongoClient } from 'mongodb'
 import dotenv from 'dotenv'
 import { User } from '~/models/schemas/User.schema'
-dotenv.config()
 
-console.log(process.env.DB_USERNAME)
+dotenv.config()
 
 const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@twitter.0gy2f.mongodb.net/?retryWrites=true&w=majority&appName=twitter`
 
